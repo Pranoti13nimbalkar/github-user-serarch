@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub User Search</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Search Page -->
+    <div id="searchPage">
+      <h1>🚀 GitHub User Search</h1>
+      <form id="userForm">
+        <input type="text" id="userName" placeholder="Enter GitHub username...">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <!-- Profile Page -->
+    <div id="profilePage" style="display:none;">
+      <h1>👤 GitHub Profile</h1>
+      <div id="profileContainer">Loading...</div>
+      <button id="backBtn" >⬅ Back to Search</button>
+    </div>
+
+  </div>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
